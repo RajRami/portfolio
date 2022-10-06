@@ -3,8 +3,37 @@
   <head>
     <title>{{title}}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
   </head>
   <body>
+    <header>
+      <nav class="navbar h-nav-resp">
+         <div class="logo visibility-resp">
+             <a href="/" id="a-img"><img src="/images/Raj.jpeg" alt="logo"></a>
+         </div>
+         <ul class="nav-list visibility-resp">
+             <li><a href="/">Home</a></li>
+             <li><a href="/about">About</a></li>
+             <li><a href="#about">Skills</a></li>
+             <li><a href="#languages">Projects</a></li>
+             <li><a href="#contact">Contact</a></li>
+         </ul>
+         <div class="burger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+      </nav>
+    </header>
     {{{body}}}
+    <footer>
+        <p class="p-footer">Copyright &copy; 2022 www.rajrami.com - All rights reserved.</p>
+        <div>
+          <a href="https://github.com/RajRami" target="_blank"><i class="fab fa-github"></i></a> 
+          <a href="https://www.linkedin.com/in/raj-rami-9a0493227/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div> 
+        {{!-- <img src="" alt="GitHub Logo">
+        <img src="/images/LinkedIn_Logo.png" alt="LinkedIn Logo"> --}}
+    </footer>
   </body>
 </html>
