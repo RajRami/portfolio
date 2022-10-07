@@ -23,7 +23,7 @@ header{
 .logo{
     margin: 0px 40px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 .logo img{
     height: 10vh;
@@ -78,8 +78,9 @@ header{
 footer{
     background-color:black;
     display: flex;
-    margin: 5px 0px;
+    margin: 5px 0px 0px 0px;
     height: 10vh;
+    align-items: center;
 }
 footer div{
     width: 50%;

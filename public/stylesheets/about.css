@@ -1,0 +1,23 @@
+section{
+    margin: 10px;
+    background-color: #a1bda4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: justify;
+    max-width: 80vw;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+.details{
+    text-align: center;
+    margin: 12%;
+}
+h1{
+    border-bottom: 2px solid black;
+    font-size: xx-large;
+}
