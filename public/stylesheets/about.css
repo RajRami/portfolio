@@ -1,5 +1,5 @@
 section{
-    margin: 10px;
+    margin: 15px;
     background-color: #a1bda4;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,94 @@ section{
     text-align: center;
     margin: 12%;
 }
+.details p{
+    margin: 3px;
+}
 h1{
     border-bottom: 2px solid black;
     font-size: xx-large;
+}
+h2{
+    font-size: xx-large;
+}
+.sec-2{
+    border-bottom: 1px solid black;
+}
+.sub-sec-2{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 0px 18px;
+}
+.sub-sec-2 div{
+    margin: 7px;
+    text-align: center;
+}
+.sub-sec-2 div p{
+    font-size: large;
+}
+.sub-sec-2 div img{
+    height: 12vh;
+    width: 6vw;
+    /* filter: invert(1); */
+}
+.sub-sec-2 div img:hover{
+    height: 14vh;
+    width: 6.5vw;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+.sec-3{
+    border-bottom: 1px solid black;
+}
+.sub-sec-3{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 0rem 23.25rem;
+}
+.sub-sec-3 div{
+    margin: 6px;
+    text-align: center;
+}
+.sub-sec-3 div p{
+    font-size: large;
+}
+.sub-sec-3 div img{
+    height: 12vh;
+    width: 6vw;
+    /* filter: invert(1); */
+}
+.sub-sec-3 div img:hover{
+    height: 14vh;
+    width: 6.5vw;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+.sec-4{
+    border-bottom: 1px solid black;
+}
+.sub-sec-4{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 0px 18px;
+}
+.sub-sec-4 div{
+    margin: 4.5px;
+    text-align: center;
+}
+.sub-sec-4 div p{
+    font-size: large;
+}
+.sub-sec-4 div img{
+    height: 10vh;
+    width: 5vw;
+    /* filter: invert(1); */
+}
+.sub-sec-4 div img:hover{
+    height: 12vh;
+    width: 5.5vw;
+    cursor: pointer;
+    transition: ease-in 0.2s;
 }
