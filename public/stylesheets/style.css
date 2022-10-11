@@ -99,6 +99,7 @@ footer a:hover{
 footer i:hover{
     cursor: pointer;
     font-size: 30px;
+    transition: ease-in 0.2s;
 }
 .p-footer{
     width: 50%;
