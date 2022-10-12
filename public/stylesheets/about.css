@@ -19,6 +19,7 @@ section{
 }
 .details p{
     margin: 3px;
+    font-size: large;
 }
 h1{
     border-bottom: 2px solid black;
