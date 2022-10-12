@@ -27,10 +27,10 @@ header{
 }
 .logo img{
     height: 10vh;
-    width: 4vw;
+    width: 4.5vw;
     /* border: 2px solid #ADEFD1FF; */
     border: 2px solid #a1bda4;
-    border-radius: 30px;
+    border-radius: 35px;
 }
 #a-img:hover{
     background-color:black;
@@ -106,3 +106,82 @@ footer i:hover{
     padding: 15px;
     color: #a1bda4;
 }
+@media only screen and (max-width:1200px){
+    .logo img{
+        width: 5vw;
+    }
+}
+@media only screen and (max-width:1150px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img {
+        height: 10vh;
+        width: 8.5vw;
+        border-radius: 35px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-list li{
+        margin: 2px 0px;
+    }
+    .nav-list li a{
+        font-size: 22px;
+        padding: 3px;
+    }  
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    .visibility-resp{
+        opacity: 0; 
+    }
+    .h-nav-resp{
+        height: 75px;
+    }
+}  
+@media only screen and (max-width:600px){
+    .logo img{
+        height: 8vh;
+        width: 7vw;
+    }
+    .nav-list li a{
+        font-size: 18px;
+    } 
+}
+@media only screen and (max-width:500px){
+    .logo img{
+        height: 7vh;
+        width: 7vw;
+    }
+}
+@media only screen and (max-width:422px) {
+    .logo img{
+        height: 6vh;
+    }
+    .p-footer{
+        width: 95%;
+        padding: 10px;
+    }
+    footer i{
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+}    
+@media only screen and (max-width:322px) {
+    .logo img{
+        height: 5vh;
+    }
+    .p-footer{
+        font-size: xx-small;
+        padding: 5px;
+    }
+}    

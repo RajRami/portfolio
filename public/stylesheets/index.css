@@ -34,7 +34,6 @@ img{
     color: #a1bda4;
     cursor: pointer;
     font-size: large;
-    margin-top: 5px;
     padding: 6px;
     border-radius: 6px;
     text-decoration: none;
@@ -43,4 +42,66 @@ a:hover{
     background-color: #a1bda4;
     color: black;
     transition: ease-in-out 0.4s;
+}
+@media only screen and (max-width:1100px){
+    p{
+        font-size: medium;
+    }
+}
+@media only screen and (max-width:1000px){
+    h1{
+        font-size: x-large;
+    }
+    p{
+        font-size:small;
+    }
+    .btn-sm{
+        font-size: medium;
+        padding: 2px;
+    }
+}
+@media only screen and (max-width:750px) {
+    h1{
+        font-size: large;
+    }
+    p{
+        font-size:x-small ;
+    }
+    .btn-sm{
+        font-size:smaller;
+        padding: 2px;
+    }
+    img{
+        height:80vh;
+    }
+}
+@media only screen and (max-width:680px){
+    section{
+        margin: 15px 15px;
+    }
+}
+@media only screen and (max-width:570px){
+    img{
+        height: 70vh;
+    }
+    section{
+        height:100vh;
+    }
+}
+@media only screen and (max-width:500px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:350px){
+    img{
+        height: 50vh;
+    }
+    section{
+        margin: 15px 0px;
+    }
 }
