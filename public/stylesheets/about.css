@@ -35,7 +35,6 @@ h2{
     display: flex;
     flex-direction: row;
     margin: 15px;
-    padding: 0px 18px;
 }
 .sub-sec-2 div{
     margin: 7px;
@@ -54,6 +53,7 @@ h2{
     width: 6.5vw;
     cursor: pointer;
     transition: ease-in 0.2s;
+    box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }
 .sec-3{
     border-bottom: 1px solid black;
@@ -62,7 +62,6 @@ h2{
     display: flex;
     flex-direction: row;
     margin: 15px;
-    padding: 0rem 23.25rem;
 }
 .sub-sec-3 div{
     margin: 6px;
@@ -81,6 +80,7 @@ h2{
     width: 6.5vw;
     cursor: pointer;
     transition: ease-in 0.2s;
+    box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }
 .sec-4{
     border-bottom: 1px solid black;
@@ -89,7 +89,6 @@ h2{
     display: flex;
     flex-direction: row;
     margin: 15px;
-    padding: 0px 18px;
 }
 .sub-sec-4 div{
     margin: 4.5px;
@@ -108,4 +107,58 @@ h2{
     width: 5.5vw;
     cursor: pointer;
     transition: ease-in 0.2s;
+    box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }
+@media only screen and (max-width:1120px) {
+    .details{
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:1000px) {
+    section p {
+        font-size: smaller;
+    }
+    .sub-sec-2 div img{
+        height: 9vh;
+        width: 5.5vw;
+    }
+    .sub-sec-3 div img{
+        height: 9vh;
+        width: 5.5vw;
+    }
+    .sub-sec-4 div img{
+        height: 9vh;
+        width: 5.5vw;
+    }
+}
+/* @media only screen and (max-width:920px){
+    .sub-sec-2 div img{
+        height: 6vh;
+        width: 5vw;
+    }
+    .sub-sec-3 div img{
+        height: 6vh;
+        width: 5vw;
+    }
+    .sub-sec-4 div img{
+        height: 6vh;
+        width: 5vw;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .details p{
+        font-size: xx-small;
+    }
+    .sub-sec-2 div img{
+        height: 8vh;
+        width: 5.5vw;
+    }
+    .sub-sec-3 div img{
+        height: 8vh;
+        width: 5.5vw;
+    }
+    .sub-sec-4 div img{
+        height: 8vh;
+        width: 5.5vw;
+    }
+} */
