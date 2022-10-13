@@ -131,7 +131,7 @@ h2{
         width: 5.5vw;
     }
 }
-/* @media only screen and (max-width:920px){
+@media only screen and (max-width:920px){
     .sub-sec-2 div img{
         height: 6vh;
         width: 5vw;
@@ -146,6 +146,10 @@ h2{
     }
 }
 @media only screen and (max-width: 770px) {
+    .sec-1{
+        display: flex;
+        flex-direction: column;
+    }
     .details p{
         font-size: xx-small;
     }
@@ -161,4 +165,4 @@ h2{
         height: 8vh;
         width: 5.5vw;
     }
-} */
+}
