@@ -10,7 +10,12 @@
     /* filter: invert(1); */
 }
 .main{
-    background-color: #a1bda4;
+    background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 0%,
+    #a1bda4 70%,
+    #a1bda4 100%
+  );
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;

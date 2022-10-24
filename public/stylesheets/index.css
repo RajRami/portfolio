@@ -3,10 +3,13 @@ section{
     grid-template-columns: 50% 50%;
     align-items: center;
     justify-content: center;
-    background-color:#a1bda4;
     margin: 15px 70px;
-    /* background-color: rgb(235, 233, 233); */
-    /* border-radius: 50px; */
+    background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 0%,
+    #a1bda4 70%,
+    #a1bda4 100%
+  );
 }
 h1{
     font-size: xx-large;
