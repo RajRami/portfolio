@@ -1,172 +1,228 @@
-section{
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('../images/about-bg.jpg');
+    background-size: cover;
+    opacity: 0.5;
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
+section {
     margin: 15px;
-    background: linear-gradient(
-    to right,
-    rgb(255, 255, 255) 0%,
-    #a1bda4 70%,
-    #a1bda4 100%
-  );
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sec-1{
+p{
+    font-weight: 600;
+}
+.sec-1 {
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: justify;
-    max-width: 80vw;
-    padding: 20px;
+    max-width: 100vw;
+    padding: 10px;
     border-bottom: 1px solid black;
 }
-.details{
+
+.details {
     text-align: center;
-    margin: 12%;
+    margin: 8%;
 }
-.details p{
+.sec-1 div p {
+    font-size: x-large;
+}
+
+.details p {
     margin: 3px;
-    font-size: large;
+    font-size: large ;
 }
-h1{
+
+h1 {
     border-bottom: 2px solid black;
     font-size: xx-large;
 }
-h2{
+
+h2 {
     font-size: xx-large;
 }
-.sec-2{
+
+.sec-2 {
     border-bottom: 1px solid black;
 }
-.sub-sec-2{
+
+.sub-sec-2 {
     display: flex;
     flex-direction: row;
     margin: 15px;
 }
-.sub-sec-2 div{
+
+.sub-sec-2 div {
     margin: 7px;
     text-align: center;
 }
-.sub-sec-2 div p{
+
+.sub-sec-2 div p {
     font-size: large;
 }
-.sub-sec-2 div img{
+
+.sub-sec-2 div img {
     height: 12vh;
     width: 6vw;
     /* filter: invert(1); */
 }
-.sub-sec-2 div img:hover{
+
+.sub-sec-2 div img:hover {
     height: 14vh;
     width: 6.5vw;
     cursor: pointer;
     transition: ease-in 0.2s;
     box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }
-.sec-3{
+
+.sec-3 {
     border-bottom: 1px solid black;
 }
-.sub-sec-3{
+
+.sub-sec-3 {
     display: flex;
     flex-direction: row;
     margin: 15px;
 }
-.sub-sec-3 div{
+
+.sub-sec-3 div {
     margin: 6px;
     text-align: center;
 }
-.sub-sec-3 div p{
+
+.sub-sec-3 div p {
     font-size: large;
 }
-.sub-sec-3 div img{
+
+.sub-sec-3 div img {
     height: 12vh;
     width: 6vw;
     /* filter: invert(1); */
 }
-.sub-sec-3 div img:hover{
+
+.sub-sec-3 div img:hover {
     height: 14vh;
     width: 6.5vw;
     cursor: pointer;
     transition: ease-in 0.2s;
     box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }
-.sec-4{
+
+.sec-4 {
     border-bottom: 1px solid black;
 }
-.sub-sec-4{
+
+.sub-sec-4 {
     display: flex;
     flex-direction: row;
     margin: 15px;
 }
-.sub-sec-4 div{
+
+.sub-sec-4 div {
     margin: 4.5px;
     text-align: center;
 }
-.sub-sec-4 div p{
+
+.sub-sec-4 div p {
     font-size: large;
 }
-.sub-sec-4 div img{
+
+.sub-sec-4 div img {
     height: 10vh;
     width: 5vw;
     /* filter: invert(1); */
 }
-.sub-sec-4 div img:hover{
+
+.sub-sec-4 div img:hover {
     height: 12vh;
     width: 5.5vw;
     cursor: pointer;
     transition: ease-in 0.2s;
     box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }
+
 @media only screen and (max-width:1120px) {
-    .details{
+    .details {
         margin: 10px;
     }
 }
+
 @media only screen and (max-width:1000px) {
     section p {
         font-size: smaller;
     }
-    .sub-sec-2 div img{
+
+    .sub-sec-2 div img {
         height: 9vh;
         width: 5.5vw;
     }
-    .sub-sec-3 div img{
+
+    .sub-sec-3 div img {
         height: 9vh;
         width: 5.5vw;
     }
-    .sub-sec-4 div img{
+
+    .sub-sec-4 div img {
         height: 9vh;
         width: 5.5vw;
     }
 }
-@media only screen and (max-width:920px){
-    .sub-sec-2 div img{
+
+@media only screen and (max-width:920px) {
+    .sub-sec-2 div img {
         height: 6vh;
         width: 5vw;
     }
-    .sub-sec-3 div img{
+
+    .sub-sec-3 div img {
         height: 6vh;
         width: 5vw;
     }
-    .sub-sec-4 div img{
+
+    .sub-sec-4 div img {
         height: 6vh;
         width: 5vw;
     }
 }
+
 @media only screen and (max-width: 770px) {
-    .sec-1{
+    .sec-1 {
         display: flex;
         flex-direction: column;
     }
-    .details p{
+
+    .details p {
         font-size: xx-small;
     }
-    .sub-sec-2 div img{
+
+    .sub-sec-2 div img {
         height: 8vh;
         width: 5.5vw;
     }
-    .sub-sec-3 div img{
+
+    .sub-sec-3 div img {
         height: 8vh;
         width: 5.5vw;
     }
-    .sub-sec-4 div img{
+
+    .sub-sec-4 div img {
         height: 8vh;
         width: 5.5vw;
     }

@@ -1,10 +1,26 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('../images/project-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
 section{
-    background: linear-gradient(
-    to right,
-    rgb(255, 255, 255) 0%,
-    #a1bda4 70%,
-    #a1bda4 100%
-  );
     margin: 15px;
     padding: 15px;
 }
@@ -14,18 +30,19 @@ h1{
     border-bottom: 2px solid black;
     border-style: ridge;
 }
-h2{
+h2, h3{
     margin: 5px 0px;
+    font-size: x-large;
 }
 hr{
     background: #000;
 }
 .p-sec-main{
-    font-size: large;
+    font-size: x-large;
 }
 .btn-sec-main{
     cursor: pointer;
-    padding: 3px;
+    padding: 6px;
     font-size: large;
     border-radius: 6px;
     margin: 5px 0px;
@@ -33,7 +50,10 @@ hr{
     color: #a1bda4;
 }
 .btn-sec-main:hover{
-    background-color: #a1bda4;
+    background: linear-gradient(to right,
+            rgb(255, 255, 255) 50%,
+            #a1bda4 50%,
+            #a1bda4 100%);
     color: black;
     transition: ease-in-out 0.4s;
 }
@@ -55,17 +75,18 @@ hr{
 .sec-main-imgdiv{
     width: 30vw;
 }
-.content{
+.content-info{
     width: 70vw;
 }
 .sec-main img{
-    height: 40vh;
-    width: 25vw;
+    height: 45vh;
+    width: 30vw;
 }
 .sec-main img:hover{
     cursor: pointer;
-    height: 41vh;
-    transition: ease-in-out 0.2s;
+    height: 48vh;
+    width: 32vw;
+    transition: ease-in-out 0.4s;
     box-shadow: 3px 3px 3px 3px rgb(72, 72, 72);
 }    
 

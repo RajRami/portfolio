@@ -1,5 +1,27 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap'); */
+body {
+    min-height: 100vh;
+    position: relative;
+}
 
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('../images/contact-bg.jpg');
+    background-size: cover;
+    opacity: 0.4;
+}
+.content {
+    position: relative;
+    z-index: 1;
+}
+p{
+    font-size: x-large;
+}
 .first img{
     height: 2rem;
     width: 2rem;
@@ -10,12 +32,6 @@
     /* filter: invert(1); */
 }
 .main{
-    background: linear-gradient(
-    to right,
-    rgb(255, 255, 255) 0%,
-    #a1bda4 70%,
-    #a1bda4 100%
-  );
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
@@ -68,7 +84,7 @@ button{
     color: #a1bda4;
 }
 button:hover{
-    background-color: #a1bda4;
+    background-color: transparent;
     color: black;
     transition: ease-in-out 0.4s;
 }

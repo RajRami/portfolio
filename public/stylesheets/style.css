@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Signika&family=Ubuntu&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -11,7 +12,7 @@ header{
     position: sticky;
     top: 0;
     left: 0;
-    z-index:1;
+    z-index:2;
 }
 .navbar{
     display: flex;
@@ -19,21 +20,6 @@ header{
     /* background-color: #00203FFF; */
     background-color: black;
     height: 14vh;
-}
-.logo{
-    margin: 0px 40px;
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    height: 10vh;
-    width: 4.5vw;
-    /* border: 2px solid #ADEFD1FF; */
-    border: 2px solid #a1bda4;
-    border-radius: 10rem;
-}
-#a-img:hover{
-    background-color:black;
 }
 .nav-list{
     display: flex;
@@ -52,7 +38,8 @@ header{
     /* color: rgb(255, 255, 255); */
     text-decoration: none;
     padding: 6px;
-    font-size: 20px;
+    font-size: x-large;
+    font-weight: bolder;
 }
 .nav-list li a:hover{
     /* color: #ADEFD1FF; */
@@ -60,8 +47,8 @@ header{
     transition: ease-in-out 0.4s;
     background: linear-gradient(
     to right,
-    rgb(255, 255, 255) 0%,
-    #a1bda4 70%,
+    rgb(255, 255, 255) 50%,
+    #a1bda4 50%,
     #a1bda4 100%
   );
     border-radius: 5px;
@@ -85,6 +72,8 @@ footer{
     margin: 5px 0px 0px 0px;
     height: 10vh;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 footer div{
     width: 50%;
@@ -94,7 +83,7 @@ footer div{
 }
 footer i{
     color: #a1bda4;
-    font-size: 25px;
+    font-size: xx-large;
     margin: 0px 15px;
 }
 footer a:hover{
@@ -102,17 +91,19 @@ footer a:hover{
 }
 footer i:hover{
     cursor: pointer;
-    font-size: 30px;
+    font-size: x-large;
     transition: ease-in 0.2s;
 }
 .p-footer{
-    width: 50%;
+    width: 70%;
     text-align: center;
     padding: 15px;
     color: #a1bda4;
+    font-size: x-large;
 }
 .p-footer a{
     color: #a1bda4;
+    font-size: x-large;
 }
 .p-footer a:hover{
     color: #a1bda4;
